@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
 
 :root {
-    --accent: rgb(36, 104, 150);
+    --accent: rgb(49, 121, 168);
     --dark: #2F4858;
     --light: #EBF5EE;
 
     --border: 5px solid var(--accent);
 }
-
 
 body {
     font-family: 'Roboto Mono', sans-serif;
@@ -44,18 +43,14 @@ div {
     opacity: .35;
 }
 
-
-/* ////////////////////
-   demo starts here
-//////////////////// */
-
 .table {
     display: table;
 }
 
 .table p {
     display: table-cell;
-    vertical-align: center;
+    /* text-align: center; */
+    vertical-align: middle;
 }
 
 .absolute {
